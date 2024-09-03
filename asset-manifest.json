@@ -1,22 +1,20 @@
 {
   "files": {
-    "main.css": "/micic-astro/static/css/main.3921b760.css",
+    "main.css": "/micic-astro/static/css/main.e2e652f9.css",
     "main.js": "/micic-astro/static/js/main.9fb3046a.js",
     "static/js/592.a57dd921.chunk.js": "/micic-astro/static/js/592.a57dd921.chunk.js",
-    "static/media/backNew.jpg": "/micic-astro/static/media/backNew.be52f5217769eb6a24cf.jpg",
-    "static/media/backV.jpg": "/micic-astro/static/media/backV.3f5d042387f7872d8ee4.jpg",
     "static/media/slika2.jpg": "/micic-astro/static/media/slika2.30ce5c8edde0cfefebd3.jpg",
     "static/media/slika4.jpg": "/micic-astro/static/media/slika4.5374dc1654f6204da424.jpg",
     "static/media/slika1.jpg": "/micic-astro/static/media/slika1.18bd23fde58e4bd16d84.jpg",
     "static/media/slika3.jpg": "/micic-astro/static/media/slika3.d355aba48ab8113ba8a7.jpg",
     "static/media/marko.jpg": "/micic-astro/static/media/marko.e4e9f13ed9cd26d483a8.jpg",
     "index.html": "/micic-astro/index.html",
-    "main.3921b760.css.map": "/micic-astro/static/css/main.3921b760.css.map",
+    "main.e2e652f9.css.map": "/micic-astro/static/css/main.e2e652f9.css.map",
     "main.9fb3046a.js.map": "/micic-astro/static/js/main.9fb3046a.js.map",
     "592.a57dd921.chunk.js.map": "/micic-astro/static/js/592.a57dd921.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3921b760.css",
+    "static/css/main.e2e652f9.css",
     "static/js/main.9fb3046a.js"
   ]
 }
