@@ -1,0 +1,158 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #202225d1;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.blur-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(34, 33, 33, 0.64); /* bele boje sa transparentnošću */
+  backdrop-filter: blur(5px); /* Ovaj filter daje efekat blura */
+}
+
+.container {
+  width: 40vw;
+  max-height: 90vh;
+  margin: 2rem 0;
+  padding: 30px 50px;
+  background-color: rgba(17, 15, 15, 0.577);
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  position: relative;
+  z-index: 2;
+}
+.img-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  align-self: flex-end;
+}
+
+.img-container > img {
+  width: 30%;
+  border-radius: 5%;
+  margin: 0 2rem;
+}
+.container > h1 {
+  text-align: center;
+  align-self: center;
+  color: white;
+  line-height: 1.5;
+  letter-spacing: 1.5rem;
+  width: fit-content;
+
+  font-weight: 600;
+}
+.container > h2 {
+  align-self: left;
+  color: white;
+  line-height: 1.5;
+  letter-spacing: 0.5rem;
+  width: fit-content;
+  border-bottom: 1px solid white;
+  font-weight: 400;
+  margin: 3rem 0 2rem 0;
+  padding: 5px 0;
+}
+.container > h3 {
+  align-self: left;
+  color: white;
+  font-size: 1.5rem;
+  letter-spacing: 0.3rem;
+  width: fit-content;
+  font-weight: 400;
+  margin: 1rem 0;
+}
+.container > p,
+.img-container > p {
+  text-align: justify;
+  color: rgb(217, 217, 217);
+  line-height: 1.5;
+  letter-spacing: 0.1rem;
+  font-weight: 200;
+  font-size: 1.05rem;
+}
+.container > p > a {
+  text-decoration: none;
+  cursor: pointer;
+  color: rgb(173, 203, 234);
+}
+.container > img {
+  margin: 1rem;
+}
+
+.contact-span {
+  display: flex;
+  align-items: center;
+}
+.contact-span > span {
+  margin-right: 1rem;
+  color: rgb(217, 217, 217);
+  font-size: 1.2rem;
+  font-weight: 200;
+  letter-spacing: 0.1rem;
+}
+ol > li,
+ul > li {
+  margin: 0.5rem 0;
+  color: rgb(217, 217, 217);
+  font-size: 1rem;
+  font-weight: 100;
+  letter-spacing: 0.1rem;
+}
+
+/* Sakrijte skrol bar samo za WebKit bazirane browser-e */
+.container::-webkit-scrollbar {
+  display: none;
+}
+
+/* Za Firefox browser, možete koristiti sledeće */
+.container {
+  scrollbar-width: none; /* Sakrijte skrol bar u Firefoxu */
+}
+@media screen and (max-width: 900px) {
+  .container {
+    width: 80vw;
+    margin: 1rem 0;
+    padding: 20px 15px;
+  }
+  .container > h1 {
+    font-size: 1.5rem;
+    letter-spacing: 1rem;
+  }
+  .container > h2 {
+    font-size: 1.2rem;
+  }
+  .container > h3 {
+    font-size: 1rem;
+  }
+  .container > p,
+  .img-container > p {
+    font-size: 0.9rem;
+  }
+  .container > .img-container {
+    flex-direction: column-reverse;
+  }
+  .contact-span > span {
+    font-size: 0.8rem;
+  }
+}

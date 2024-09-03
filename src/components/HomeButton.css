@@ -1,0 +1,24 @@
+.home-btn {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+.home-btn:hover {
+  background-color: rgba(36, 35, 35, 0.779);
+  transition: ease-in-out 0.5s;
+}
+.home-btn > a {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+  font-weight: lighter;
+}
+.home-btn > a > svg {
+  display: block;
+}

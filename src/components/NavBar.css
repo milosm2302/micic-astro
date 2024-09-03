@@ -1,0 +1,32 @@
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem;
+  z-index: 3;
+}
+.navLink {
+  padding: 0.7rem 2rem;
+  border: 0.05rem solid white;
+  cursor: pointer;
+  text-align: center;
+  font-size: 1.2rem;
+  color: white;
+  letter-spacing: 0.3rem;
+  font-weight: 400;
+  text-decoration: none;
+  text-transform: uppercase;
+  z-index: 3;
+}
+
+@media screen and (max-width: 900px) {
+  .navigation {
+    flex-direction: column;
+    margin: 0.6rem;
+  }
+  .navLink {
+    width: 60vw;
+    margin-bottom: 0.5rem;
+    font-size: 0.8rem;
+  }
+}

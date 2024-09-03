@@ -1,0 +1,35 @@
+.wrapCV {
+  width: 70vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  z-index: 5;
+}
+.cvButtons {
+  width: 70vw;
+  height: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.cvHolder {
+  height: 90vh;
+
+  width: 70vw;
+}
+.btn-cv {
+  color: aqua;
+  padding: 5px 25px;
+  cursor: pointer;
+  margin: 1rem;
+}
+.btn-cv > a {
+  text-decoration: none;
+  font-weight: 600;
+  color: black;
+}
+iframe {
+  margin-top: 1rem;
+}
